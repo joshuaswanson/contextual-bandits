@@ -1,0 +1,33 @@
+{
+  "global": {
+    "T": 2500,
+    "sigma": 1.0,
+    "reps": 30,
+    "cpu": 8,
+    "parallelize": "mp",
+    "instance": {
+      "name": "sphere",
+      "params": {"K": 100, "d": 5}
+    }
+  },
+  "algs": [
+    {
+      "name": "ts",
+      "alg_class": "ThompsonSampling",
+      "params": {},
+      "active": true
+    },
+    {
+      "name": "toptwo",
+      "alg_class": "TopTwoAlgorithm",
+      "params": {},
+      "active": true
+    },
+    {
+      "name": "xystatic",
+      "alg_class": "XYStatic",
+      "params": {},
+      "active": true
+    }
+  ]
+}
