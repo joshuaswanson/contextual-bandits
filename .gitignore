@@ -1,4 +1,17 @@
-.ipynb_checkpoints/
-*.png
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project artifacts
+*.png
 catboost_info/
