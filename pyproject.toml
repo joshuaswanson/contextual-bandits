@@ -1,0 +1,17 @@
+[project]
+name = "contextualbandits"
+version = "0.1.0"
+description = "Contextual bandit algorithms for best-arm identification"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "catboost",
+]
+
+[project.optional-dependencies]
+ray = ["ray"]
+
+[tool.uv]
+python-preference = "managed"
