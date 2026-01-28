@@ -1,6 +1,6 @@
 # Contextual Bandits for Best-Arm Identification
 
-A research implementation of contextual bandit algorithms for the best-arm identification problem. This codebase implements several algorithms that efficiently identify the optimal arm in both linear and nonlinear reward settings.
+A research implementation of contextual bandit algorithms for the best-arm identification problem. This codebase implements several algorithms that identify the optimal arm in both linear and nonlinear reward settings.
 
 ## Algorithms
 
