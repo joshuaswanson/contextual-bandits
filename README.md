@@ -1,12 +1,12 @@
 # Contextual Bandits for Best-Arm Identification
 
-A research implementation of contextual bandit algorithms for the best-arm identification problem. This codebase implements several algorithms that identify the optimal arm in both linear and nonlinear reward settings.
+A research implementation of contextual bandit algorithms for the multi-armed bandit problem. This repo contains implementations several algorithms that identify the optimal arm in linear and nonlinear reward settings.
 
 ## Algorithms
 
 ### Linear Bandit Algorithms
 
-These algorithms assume rewards are linear in arm features: `E[r|x] = x^T θ*`
+These algorithms assume rewards are linear in arm features: $\mathbb{E}[r|x] = x^\top θ^*$
 
 - **Thompson Sampling** (`ThompsonSampling`): Samples from the posterior over θ and pulls the arm with highest expected reward under the sample.
 
